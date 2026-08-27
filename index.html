@@ -13,8 +13,9 @@
         <div class="logo">
             <a href="#inicio">LA.</a>
         </div>
+         <button id="btn-menu-portafolio" aria-label="Menú">☰</button>
         <nav>
-            <ul class="nav-links">
+            <ul class="nav-links" id="nav-links-portafolio">
                 <li><a href="#sobre-mi">Sobre mí</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
@@ -24,7 +25,7 @@
 
     <main>
         <!-- SECCIÓN HERO -->
- <section id="inicio" class="hero">
+<section id="inicio" class="hero">
     <div class="hero-content">
 
         <span class="hero-badge">
@@ -63,42 +64,144 @@
 
         <!-- SECCIÓN SOBRE MÍ -->
         <section id="sobre-mi" class="sobre-mi">
-            <h2>Sobre mí</h2>
-            <div class="sobre-mi-grid">
-                <div class="texto-perfil">
-                    <p>
-                        Desarrollador web enfocado en el ecosistema Frontend, con dominio en JavaScript Vanilla, HTML5, CSS3 y la integración de servicios como Firebase. Mi objetivo es escribir código estructurado, eficiente y fácil de mantener.
-                    </p>
-                    <p>
-                        Mi experiencia previa en gestión administrativa y atención al cliente me otorga una perspectiva de negocio integral, facilitando la comprensión de las necesidades del usuario final y la resolución práctica de imprevistos.
-                    </p>
-                    <p>
-                        Disponible para oportunidades en modalidad remota o presencial/híbrida en la región de Rosario, Maciel, Funes y alrededores.
-                    </p>
-                </div>
 
-                <div class="tech-stack">
-                    <h3>Tecnologías principales</h3>
-                    <ul class="skills-list">
-                        <li>JavaScript (ES6+)</li>
-                        <li>HTML5 / CSS3</li>
-                        <li>Flexbox & Grid</li>
-                        <li>Firebase / Firestore</li>
-                        <li>Git & GitHub</li>
-                    </ul>
+    <div class="section-heading">
+        <span class="section-number">01</span>
+        <h2>Sobre mí</h2>
+    </div>
+
+    <div class="sobre-mi-grid">
+
+        <div class="texto-perfil">
+            <span class="eyebrow">PERFIL</span>
+
+            <h3>
+                Desarrollo interfaces,
+                pero pienso en soluciones.
+            </h3>
+
+            <p>
+                Soy desarrollador web enfocado en Frontend, especializado en
+                crear interfaces modernas, funcionales y responsive.
+            </p>
+
+            <p>
+                Me interesa transformar necesidades concretas de un negocio
+                en experiencias digitales simples, claras y efectivas.
+            </p>
+
+            <p>
+                Actualmente estoy ampliando mi perfil con formación en
+                Análisis de Negocios, buscando combinar desarrollo tecnológico
+                con una mejor comprensión de los problemas que una solución
+                digital debe resolver.
+            </p>
+        </div>
+
+        <div class="perfil-datos">
+
+            <div class="dato-card">
+                <span class="dato-numero">01</span>
+                <div>
+                    <h4>Frontend</h4>
+                    <p>Interfaces modernas y adaptables.</p>
                 </div>
             </div>
-        </section>
+
+            <div class="dato-card">
+                <span class="dato-numero">02</span>
+                <div>
+                    <h4>Experiencia de usuario</h4>
+                    <p>Navegación clara y decisiones centradas en el usuario.</p>
+                </div>
+            </div>
+
+            <div class="dato-card">
+                <span class="dato-numero">03</span>
+                <div>
+                    <h4>Visión de negocio</h4>
+                    <p>Desarrollo orientado a objetivos reales.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="como-trabajo">
+    <div class="como-trabajo-heading">
+        <span class="eyebrow">PROCESO</span>
+        <h3>Cómo trabajo</h3>
+        <p>
+            Un recorrido corto: primero el problema, después la interfaz,
+            después el código.
+        </p>
+    </div>
+
+    <div class="pasos-grid">
+        <article class="paso-card">
+            <span class="dato-numero">01</span>
+            <h4>Entender el problema</h4>
+            <p>
+                Aclaro qué hay que resolver, para quién es y qué resultado
+                se espera, antes de empezar a maquetar.
+            </p>
+        </article>
+
+        <article class="paso-card">
+            <span class="dato-numero">02</span>
+            <h4>Diseñar la interfaz</h4>
+            <p>
+                Defino estructura, jerarquía visual y un recorrido simple
+                en desktop y en mobile.
+            </p>
+        </article>
+
+        <article class="paso-card">
+            <span class="dato-numero">03</span>
+            <h4>Construir y ajustar</h4>
+            <p>
+                Desarrollo con HTML, CSS y JavaScript, pruebo en distintos
+                tamaños de pantalla y dejo el código listo para conectar
+                con Firebase o un backend.
+            </p>
+        </article>
+    </div>
+</div>
+
+    <div class="tech-stack">
+        <div>
+            <span class="eyebrow">STACK</span>
+            <h3>Tecnologías que utilizo</h3>
+        </div>
+
+        <div class="skills-list">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript ES6+</span>
+            <span>Flexbox</span>
+            <span>CSS Grid</span>
+            <span>Firebase</span>
+            <span>Firestore</span>
+            <span>Git</span>
+            <span>GitHub</span>
+        </div>
+    </div>
+
+</section>
 
         <!-- SECCIÓN PROYECTOS -->
         <section id="proyectos" class="proyectos">
-            <h2>Proyectos destacados</h2>
-            <div class="proyectos-grid">
+    <div class="section-heading">
+        <span class="section-number">02</span>
+        <h2>Proyectos destacados</h2>
+    </div>
+    <div class="proyectos-grid">
 
                 <!-- Proyecto Principal: Tienda E-commerce -->
                 <article class="card-proyecto">
                     <div class="proyecto-imagen">
-                        <img src="assets/ecommerce-preview.jpg" alt="Vista previa de la tienda e-commerce">
+                        <img src="assets/Ecommerce-Preview.png" alt="Vista previa de la tienda e-commerce">
                     </div>
                     <div class="proyecto-info">
                         <h3>Tienda E-Commerce Interactiva</h3>
@@ -112,32 +215,34 @@
                             <li>Firebase</li>
                         </ul>
                         <div class="proyecto-links">
-                            <a href="https://github.com/tu-usuario/tienda-ecommerce" target="_blank" rel="noopener noreferrer" class="btn-link">Código en GitHub</a>
+                            <a href="https://github.com/lautaroantonini10-sketch/tienda-deportiva" target="_blank" rel="noopener noreferrer" class="btn-link">Código en GitHub</a>
                             <a href="https://tienda-deportiva-b14c3.web.app/" target="_blank" rel="noopener noreferrer" class="btn-link demo">Ver Demo</a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Proyecto Secundario (Espacio reservado) -->
+                <!-- Proyecto Secundario (Espacio reservado / Próximamente) -->
                 <article class="card-proyecto">
-                    <div class="proyecto-imagen">
-                        <img src="assets/proyecto-placeholder.jpg" alt="Vista previa del proyecto">
-                    </div>
+                    <div class="proyecto-imagen proyecto-imagen-vacia">
+                         <span>Próximamente</span>
+                        </div>
+
                     <div class="proyecto-info">
-                        <h3>Aplicación Web / Proyecto 2</h3>
+                        <h3>Próximo Proyecto</h3>
                         <p>
-                            Descripción breve de la solución, las herramientas utilizadas y el problema específico que resuelve para el usuario.
+                            Actualmente desarrollando nuevas soluciones web y dashboards analíticos orientados a la gestión de datos e integración de APIs.
                         </p>
                         <ul class="tags">
                             <li>JavaScript</li>
                             <li>APIs Rest</li>
-                            <li>CSS Flexbox</li>
+                            <li>Data Analytics</li>
                         </ul>
+
                         <div class="proyecto-links">
-                            <a href="#" class="btn-link">Código en GitHub</a>
-                            <a href="#" class="btn-link demo">Ver Demo</a>
+                            <span class="btn-link">En desarrollo</span>
                         </div>
                     </div>
+
                 </article>
 
             </div>
@@ -145,12 +250,15 @@
 
         <!-- SECCIÓN CONTACTO -->
         <section id="contacto" class="contacto">
-            <h2>Contacto</h2>
-            <p>¿Tenés una propuesta laboral o un proyecto en mente? Ponete en contacto conmigo.</p>
+    <div class="section-heading centrado">
+        <span class="section-number">03</span>
+        <h2>Contacto</h2>
+    </div>
+    <p>¿Tenés una propuesta laboral o un proyecto en mente? Ponete en contacto conmigo.</p>
 
             <div class="contacto-links">
-                <a href="mailto:tu-email@ejemplo.com" class="btn btn-primary">Enviar Email</a>
-                <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub</a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lautaroantonini10@gmail.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Enviar Email</a>
+                <a href="https://github.com/lautaroantonini10-sketch" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub</a>
             </div>
 
         </section>
@@ -159,6 +267,7 @@
     <footer>
         <p>&copy; 2026 Lautaro Antonini. Desarrollado con HTML, CSS y JavaScript.</p>
     </footer>
-
+    
+<script src="script.js"></script>
 </body>
 </html>
