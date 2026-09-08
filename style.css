@@ -667,6 +667,10 @@ footer {
 
 @media (max-width: 768px) {
 
+    .proyectos-grid {
+    grid-template-columns: 1fr;
+}
+
     #btn-menu-portafolio {
         display: flex;
         align-items: center;
