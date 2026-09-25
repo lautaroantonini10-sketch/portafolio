@@ -1,5 +1,3 @@
-const CONTACT = { whatsapp: "", instagram: "" };
-
 const state = {
   perfumes: [],
   segment: "Todos",
@@ -19,24 +17,6 @@ let currentRecommendations = [];
 
 const normalize = (value) =>
   value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
-
-const productSlug = (perfume) =>
-  [perfume.id, perfume.name]
-    .map(normalize)
-    .join("-")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-
-const productShareUrl = (perfume) =>
-  new URL("perfume/" + productSlug(perfume) + "/", window.location.origin + "/").href;
-
-const whatsappUrl = (perfume) => {
-  const message = perfume
-    ? "Hola! Vi " + perfume.name + " de " + perfume.brand + " en el catálogo de AF Fragancias y quería consultar precio y disponibilidad.\n\n" + productShareUrl(perfume)
-    : "Hola! Estuve viendo el catálogo de AF Fragancias y quería hacer una consulta.";
-  const destination = CONTACT.whatsapp ? "/" + CONTACT.whatsapp : "";
-  return "https://wa.me" + destination + "?text=" + encodeURIComponent(message);
-};
 
 function productCard(perfume) {
   return [
@@ -220,12 +200,6 @@ finderForm.addEventListener("submit", (event) => {
       return genderMatch && perfume.moods.includes(mood);
     });
   renderRecommendations(currentRecommendations);
-});
-
-document.querySelectorAll(".js-whatsapp-general").forEach((link) => {
-  link.href = whatsappUrl();
-  link.target = "_blank";
-  link.rel = "noreferrer";
 });
 
 window.addEventListener(
