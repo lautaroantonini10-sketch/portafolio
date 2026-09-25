@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#100c0a" />
+    <meta
+      name="description"
+      content="Demo de portfolio del catálogo AF Fragancias, desarrollada para mostrar diseño, filtros y selector de recomendaciones."
+    />
+    <meta property="og:title" content="AF Fragancias" />
+    <meta
+      property="og:description"
+      content="Perfumes de diseñador, árabes, nacionales y body splash. Encontrá la fragancia que va con vos."
+    />
+    <meta property="og:type" content="website" />
+    <title>AF Fragancias · Demo de portfolio</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23100c0a'/%3E%3Cpath d='M15 46 29 15h6l14 31h-8l-3-8H25l-3 8zm13-15h7l-3.5-9z' fill='%23f4efe7'/%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#catalogo">Ir al catálogo</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="AF Fragancias, inicio">
+        <img src="https://raw.githubusercontent.com/lautaroantonini10-sketch/af-fragancias/main/dist/assets/brand/af-logo.jpg" alt="" />
+      </a>
+      <nav aria-label="Navegación principal">
+        <a href="#catalogo">Colección</a>
+        <a href="#selector">Encontrá el tuyo</a>
+        
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-shade"></div>
+        <div class="hero-product hero-product-left" aria-hidden="true">
+          <img src="https://raw.githubusercontent.com/lautaroantonini10-sketch/af-fragancias/main/dist/assets/perfumes/af-22-jpg-le-male-elixir.webp" alt="" />
+        </div>
+        <div class="hero-product hero-product-right" aria-hidden="true">
+          <img src="https://raw.githubusercontent.com/lautaroantonini10-sketch/af-fragancias/main/dist/assets/perfumes/af-01-ch-la-bomba.webp" alt="" />
+        </div>
+
+        <div class="hero-content">
+          <span class="eyebrow">AF · FRAGANCIAS</span>
+          <h1 id="hero-title">Tu aroma.<br /><em>Tu presencia.</em></h1>
+          <p>
+            Una colección elegida para que encuentres esa fragancia que no pasa
+            desapercibida.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#catalogo">Explorar colección</a>
+            <a class="button button-ghost" href="#selector">¿Cuál va conmigo?</a>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#colecciones" aria-label="Bajar a las colecciones">
+          <span>Descubrir</span>
+          <span aria-hidden="true">↓</span>
+        </a>
+      </section>
+
+      <section class="collection-intro section-shell" id="colecciones">
+        <div class="section-kicker">La colección</div>
+        <div class="collection-copy">
+          <h2>Perfumes con carácter, elegidos uno por uno.</h2>
+          <p>
+            Desde clásicos de diseñador y aromas árabes hasta propuestas
+            nacionales y body splash. Explorá por estilo, público o nombre.
+          </p>
+        </div>
+      </section>
+
+      <section class="featured" aria-labelledby="featured-title">
+        <div class="section-shell">
+          <div class="featured-heading">
+            <div>
+              <span class="section-kicker">Cuatro formas de elegir</span>
+              <h2 id="featured-title">Elegí cómo querés dejar tu marca.</h2>
+            </div>
+          </div>
+          <div class="category-panels">
+            <button class="category-panel panel-designer" data-segment-jump="Diseñador">
+              <span>01</span>
+              <div>
+                <strong>Diseñador</strong>
+                <small>Íconos, clásicos y lanzamientos</small>
+              </div>
+              <b aria-hidden="true">↗</b>
+            </button>
+            <button class="category-panel panel-arabic" data-segment-jump="Árabe">
+              <span>02</span>
+              <div>
+                <strong>Árabes</strong>
+                <small>Intensidad, duración y personalidad</small>
+              </div>
+              <b aria-hidden="true">↗</b>
+            </button>
+            <button class="category-panel panel-national" data-segment-jump="Nacional">
+              <span>03</span>
+              <div>
+                <strong>Nacionales</strong>
+                <small>Perfumería local con identidad propia</small>
+              </div>
+              <b aria-hidden="true">↗</b>
+            </button>
+            <button class="category-panel panel-splash" data-segment-jump="Body Splash">
+              <span>04</span>
+              <div>
+                <strong>Body Splash</strong>
+                <small>Aromas ligeros para todos los días</small>
+              </div>
+              <b aria-hidden="true">↗</b>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog section-shell" id="catalogo" aria-labelledby="catalog-title">
+        <div class="catalog-top">
+          <div>
+            <span class="section-kicker">Catálogo completo</span>
+            <h2 id="catalog-title">Encontrá tu próxima fragancia.</h2>
+          </div>
+          <label class="search-box">
+            <span class="sr-only">Buscar por perfume o marca</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="6.8"></circle>
+              <path d="m16 16 4 4"></path>
+            </svg>
+            <input
+              type="search"
+              id="search"
+              placeholder="Buscar perfume o marca"
+              autocomplete="off"
+            />
+          </label>
+        </div>
+
+        <div class="filter-area">
+          <div class="filter-group" aria-label="Filtrar por segmento">
+            <button class="filter-chip active" data-filter="segment" data-value="Todos">Todos</button>
+            <button class="filter-chip" data-filter="segment" data-value="Diseñador">Diseñador</button>
+            <button class="filter-chip" data-filter="segment" data-value="Árabe">Árabes</button>
+            <button class="filter-chip" data-filter="segment" data-value="Nacional">Nacionales</button>
+            <button class="filter-chip" data-filter="segment" data-value="Body Splash">Body Splash</button>
+          </div>
+          <div class="filter-group filter-group-secondary" aria-label="Filtrar por público">
+            <button class="filter-chip active" data-filter="gender" data-value="Todos">Todos</button>
+            <button class="filter-chip" data-filter="gender" data-value="Hombre">Hombre</button>
+            <button class="filter-chip" data-filter="gender" data-value="Mujer">Mujer</button>
+            <button class="filter-chip" data-filter="gender" data-value="Unisex">Unisex</button>
+          </div>
+        </div>
+
+        <div class="results-line">
+          <button class="text-button" id="clear-filters" hidden>Limpiar filtros</button>
+        </div>
+
+        <div class="product-grid" id="product-grid" aria-live="polite"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <span>AF</span>
+          <h3>No encontramos esa fragancia.</h3>
+          <p>Probá con otra marca, nombre o filtro.</p>
+          <button class="button button-primary" id="empty-clear">Ver toda la colección</button>
+        </div>
+      </section>
+
+      <section class="finder" id="selector" aria-labelledby="finder-title">
+        <div class="finder-backdrop"></div>
+        <div class="section-shell finder-layout">
+          <div class="finder-copy">
+            <span class="section-kicker">Selector AF</span>
+            <h2 id="finder-title">No elijas solo un perfume.<br />Elegí cómo querés sentirte.</h2>
+            <p>
+              Contanos para quién es y qué estilo buscás. Te mostramos opciones
+              del catálogo que pueden ir con vos.
+            </p>
+          </div>
+          <form class="finder-card" id="finder-form">
+            <fieldset>
+              <legend>1. ¿Para quién?</legend>
+              <div class="choice-row">
+                <label><input type="radio" name="finder-gender" value="Hombre" required /><span>Hombre</span></label>
+                <label><input type="radio" name="finder-gender" value="Mujer" /><span>Mujer</span></label>
+                <label><input type="radio" name="finder-gender" value="Unisex" /><span>Unisex</span></label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>2. ¿Qué sensación buscás?</legend>
+              <div class="choice-row choice-row-wrap">
+                <label><input type="radio" name="finder-mood" value="fresco" required /><span>Fresco</span></label>
+                <label><input type="radio" name="finder-mood" value="dulce" /><span>Dulce</span></label>
+                <label><input type="radio" name="finder-mood" value="intenso" /><span>Intenso</span></label>
+                <label><input type="radio" name="finder-mood" value="amaderado" /><span>Amaderado</span></label>
+                <label><input type="radio" name="finder-mood" value="floral" /><span>Floral</span></label>
+              </div>
+            </fieldset>
+            <button class="button button-primary finder-submit" type="submit">
+              Ver mis recomendaciones
+            </button>
+            <div class="finder-results" id="finder-results" hidden></div>
+          </form>
+        </div>
+      </section>
+
+      
+    </main>
+
+    <footer>
+      <div class="footer-brand">
+        <img src="https://raw.githubusercontent.com/lautaroantonini10-sketch/af-fragancias/main/dist/assets/brand/af-logo.jpg" alt="AF Fragancias" />
+      </div>
+      <div class="footer-copy">
+        <p>Todos los tipos de perfumes en un solo lugar.</p>
+        <small>AF Fragancias · Catálogo online</small>
+      </div>
+      <a href="#inicio">Volver arriba ↑</a>
+    </footer>
+
+    <dialog class="product-dialog" id="product-dialog">
+      <button class="dialog-close" type="button" aria-label="Cerrar ficha">×</button>
+      <div class="dialog-content" id="dialog-content"></div>
+    </dialog>
+
+    
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
