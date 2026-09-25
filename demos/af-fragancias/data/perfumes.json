@@ -29,7 +29,7 @@
       "intenso",
       "floral"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-02-jpg-scandal-le-parfum.webp"
+    "image": "assets/perfumes/af-02-jpg-scandal-le-parfum.webp"
   },
   {
     "id": "AF-003",
@@ -44,7 +44,7 @@
       "intenso",
       "floral"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-03-jpg-gaultier-divine-le-parfum.webp"
+    "image": "assets/perfumes/af-03-jpg-gaultier-divine-le-parfum.webp"
   },
   {
     "id": "AF-004",
@@ -60,7 +60,7 @@
       "intenso",
       "floral"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-04-jpg-scandal-absolu.webp"
+    "image": "assets/perfumes/af-04-jpg-scandal-absolu.webp"
   },
   {
     "id": "AF-005",
@@ -75,7 +75,7 @@
       "floral",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-05-ysl-libre.webp"
+    "image": "assets/perfumes/af-05-ysl-libre.webp"
   },
   {
     "id": "AF-006",
@@ -90,7 +90,7 @@
       "dulce",
       "suave"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-06-lattafa-yara-moi.webp"
+    "image": "assets/perfumes/af-06-lattafa-yara-moi.webp"
   },
   {
     "id": "AF-007",
@@ -106,7 +106,7 @@
       "suave",
       "floral"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-07-lattafa-yara.webp"
+    "image": "assets/perfumes/af-07-lattafa-yara.webp"
   },
   {
     "id": "AF-008",
@@ -121,7 +121,7 @@
       "dulce",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-08-ch-212-vip-black.webp"
+    "image": "assets/perfumes/af-08-ch-212-vip-black.webp"
   },
   {
     "id": "AF-009",
@@ -137,7 +137,7 @@
       "floral",
       "suave"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-09-moschino-toy-2.webp"
+    "image": "assets/perfumes/af-09-moschino-toy-2.webp"
   },
   {
     "id": "AF-010",
@@ -153,7 +153,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-10-jpg-le-male-le-parfum.webp"
+    "image": "assets/perfumes/af-10-jpg-le-male-le-parfum.webp"
   },
   {
     "id": "AF-011",
@@ -169,7 +169,7 @@
       "floral",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-11-moschino-toy-boy.webp"
+    "image": "assets/perfumes/af-11-moschino-toy-boy.webp"
   },
   {
     "id": "AF-012",
@@ -184,7 +184,7 @@
       "dulce",
       "floral"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-12-lattafa-the-kingdom-women.webp"
+    "image": "assets/perfumes/af-12-lattafa-the-kingdom-women.webp"
   },
   {
     "id": "AF-013",
@@ -199,7 +199,7 @@
       "dulce",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-13-lattafa-eclaire.webp"
+    "image": "assets/perfumes/af-13-lattafa-eclaire.webp"
   },
   {
     "id": "AF-014",
@@ -214,7 +214,7 @@
       "dulce",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-14-lattafa-eclaire-banoffi.webp"
+    "image": "assets/perfumes/af-14-lattafa-eclaire-banoffi.webp"
   },
   {
     "id": "AF-015",
@@ -229,7 +229,7 @@
       "dulce",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-15-armaf-odyssey-dubai-chocolat.webp"
+    "image": "assets/perfumes/af-15-armaf-odyssey-dubai-chocolat.webp"
   },
   {
     "id": "AF-016",
@@ -244,7 +244,7 @@
       "dulce",
       "fresco"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-16-armaf-odyssey-mandarin-sky.webp"
+    "image": "assets/perfumes/af-16-armaf-odyssey-mandarin-sky.webp"
   },
   {
     "id": "AF-017",
@@ -259,7 +259,7 @@
       "fresco",
       "suave"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-17-afnan-9am-dive.webp"
+    "image": "assets/perfumes/af-17-afnan-9am-dive.webp"
   },
   {
     "id": "AF-018",
@@ -275,7 +275,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-18-armaf-club-de-nuit-intense-man.webp"
+    "image": "assets/perfumes/af-18-armaf-club-de-nuit-intense-man.webp"
   },
   {
     "id": "AF-019",
@@ -291,7 +291,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-19-afnan-9pm-rebel.webp"
+    "image": "assets/perfumes/af-19-afnan-9pm-rebel.webp"
   },
   {
     "id": "AF-020",
@@ -306,7 +306,7 @@
       "dulce",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-20-afnan-9pm-elixir.webp"
+    "image": "assets/perfumes/af-20-afnan-9pm-elixir.webp"
   },
   {
     "id": "AF-021",
@@ -322,7 +322,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-21-french-avenue-liquid-brun.webp"
+    "image": "assets/perfumes/af-21-french-avenue-liquid-brun.webp"
   },
   {
     "id": "AF-022",
@@ -337,7 +337,7 @@
       "dulce",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-22-jpg-le-male-elixir.webp"
+    "image": "assets/perfumes/af-22-jpg-le-male-elixir.webp"
   },
   {
     "id": "AF-023",
@@ -353,7 +353,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-23-jpg-le-beau-le-parfum.webp"
+    "image": "assets/perfumes/af-23-jpg-le-beau-le-parfum.webp"
   },
   {
     "id": "AF-024",
@@ -368,7 +368,7 @@
       "dulce",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-24-rabanne-invictus-victory.webp"
+    "image": "assets/perfumes/af-24-rabanne-invictus-victory.webp"
   },
   {
     "id": "AF-025",
@@ -384,7 +384,7 @@
       "dulce",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-25-versace-eros.webp"
+    "image": "assets/perfumes/af-25-versace-eros.webp"
   },
   {
     "id": "AF-026",
@@ -399,7 +399,7 @@
       "fresco",
       "dulce"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-26-rabanne-phantom.webp"
+    "image": "assets/perfumes/af-26-rabanne-phantom.webp"
   },
   {
     "id": "AF-027",
@@ -414,7 +414,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-27-lattafa-asad-elixir.webp"
+    "image": "assets/perfumes/af-27-lattafa-asad-elixir.webp"
   },
   {
     "id": "AF-028",
@@ -430,7 +430,7 @@
       "floral",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-28-ysl-myslf-le-parfum.webp"
+    "image": "assets/perfumes/af-28-ysl-myslf-le-parfum.webp"
   },
   {
     "id": "AF-029",
@@ -446,7 +446,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-29-lattafa-asad-bourbon.webp"
+    "image": "assets/perfumes/af-29-lattafa-asad-bourbon.webp"
   },
   {
     "id": "AF-030",
@@ -462,7 +462,7 @@
       "amaderado",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-30-chanel-bleu-de-chanel-parfum.webp"
+    "image": "assets/perfumes/af-30-chanel-bleu-de-chanel-parfum.webp"
   },
   {
     "id": "AF-031",
@@ -477,7 +477,7 @@
       "dulce",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-31-azzaro-the-most-wanted-parfum.webp"
+    "image": "assets/perfumes/af-31-azzaro-the-most-wanted-parfum.webp"
   },
   {
     "id": "AF-032",
@@ -492,7 +492,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-32-azzaro-forever-wanted-elixir.webp"
+    "image": "assets/perfumes/af-32-azzaro-forever-wanted-elixir.webp"
   },
   {
     "id": "AF-033",
@@ -507,7 +507,7 @@
       "fresco",
       "suave"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-33-armani-acqua-di-gio-profondo.webp"
+    "image": "assets/perfumes/af-33-armani-acqua-di-gio-profondo.webp"
   },
   {
     "id": "AF-034",
@@ -523,7 +523,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-34-rabanne-invictus-victory-elixir.webp"
+    "image": "assets/perfumes/af-34-rabanne-invictus-victory-elixir.webp"
   },
   {
     "id": "AF-035",
@@ -538,7 +538,7 @@
       "fresco",
       "suave"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-35-ch-212-men-nyc.webp"
+    "image": "assets/perfumes/af-35-ch-212-men-nyc.webp"
   },
   {
     "id": "AF-036",
@@ -554,7 +554,7 @@
       "floral",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-36-jpg-scandal-edp.webp"
+    "image": "assets/perfumes/af-36-jpg-scandal-edp.webp"
   },
   {
     "id": "AF-037",
@@ -569,7 +569,7 @@
       "fresco",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-37-ysl-y-edp.webp"
+    "image": "assets/perfumes/af-37-ysl-y-edp.webp"
   },
   {
     "id": "AF-038",
@@ -585,7 +585,7 @@
       "floral",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-38-ch-good-girl-edp.webp"
+    "image": "assets/perfumes/af-38-ch-good-girl-edp.webp"
   },
   {
     "id": "AF-039",
@@ -600,7 +600,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-39-ch-bad-boy-cobalt-elixir.webp"
+    "image": "assets/perfumes/af-39-ch-bad-boy-cobalt-elixir.webp"
   },
   {
     "id": "AF-040",
@@ -615,7 +615,7 @@
       "dulce",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-40-al-haramain-amber-oud-gold-edition.webp"
+    "image": "assets/perfumes/af-40-al-haramain-amber-oud-gold-edition.webp"
   },
   {
     "id": "AF-041",
@@ -630,7 +630,7 @@
       "dulce",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-41-armani-stronger-with-you-intensely.webp"
+    "image": "assets/perfumes/af-41-armani-stronger-with-you-intensely.webp"
   },
   {
     "id": "AF-042",
@@ -645,7 +645,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-42-rabanne-million-gold.webp"
+    "image": "assets/perfumes/af-42-rabanne-million-gold.webp"
   },
   {
     "id": "AF-043",
@@ -661,7 +661,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-43-jpg-scandal-pour-homme.webp"
+    "image": "assets/perfumes/af-43-jpg-scandal-pour-homme.webp"
   },
   {
     "id": "AF-044",
@@ -676,7 +676,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-44-antonio-banderas-the-secret-absolu.webp"
+    "image": "assets/perfumes/af-44-antonio-banderas-the-secret-absolu.webp"
   },
   {
     "id": "AF-045",
@@ -691,7 +691,7 @@
       "fresco",
       "dulce"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-45-jpg-le-male.webp"
+    "image": "assets/perfumes/af-45-jpg-le-male.webp"
   },
   {
     "id": "AF-046",
@@ -706,7 +706,7 @@
       "fresco",
       "suave"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-46-antonio-banderas-king-of-seduction-absolute.webp"
+    "image": "assets/perfumes/af-46-antonio-banderas-king-of-seduction-absolute.webp"
   },
   {
     "id": "AF-047",
@@ -721,7 +721,7 @@
       "fresco",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-47-antonio-banderas-the-icon.webp"
+    "image": "assets/perfumes/af-47-antonio-banderas-the-icon.webp"
   },
   {
     "id": "AF-048",
@@ -736,7 +736,7 @@
       "dulce",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-48-antonio-banderas-the-icon-attitude.webp"
+    "image": "assets/perfumes/af-48-antonio-banderas-the-icon-attitude.webp"
   },
   {
     "id": "AF-049",
@@ -751,7 +751,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-49-antonio-banderas-the-icon-elixir.webp"
+    "image": "assets/perfumes/af-49-antonio-banderas-the-icon-elixir.webp"
   },
   {
     "id": "AF-050",
@@ -766,7 +766,7 @@
       "floral",
       "dulce"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-50-ch-212-vip-rose.webp"
+    "image": "assets/perfumes/af-50-ch-212-vip-rose.webp"
   },
   {
     "id": "AF-051",
@@ -781,7 +781,7 @@
       "fresco",
       "suave"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-51-antonio-banderas-blue-seduction.webp"
+    "image": "assets/perfumes/af-51-antonio-banderas-blue-seduction.webp"
   },
   {
     "id": "AF-052",
@@ -797,7 +797,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-52-dior-sauvage-edp.webp"
+    "image": "assets/perfumes/af-52-dior-sauvage-edp.webp"
   },
   {
     "id": "AF-053",
@@ -812,7 +812,7 @@
       "fresco",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-53-dolce-gabbana-k.webp"
+    "image": "assets/perfumes/af-53-dolce-gabbana-k.webp"
   },
   {
     "id": "AF-054",
@@ -827,7 +827,7 @@
       "fresco",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-54-antonio-banderas-king-of-seduction.webp"
+    "image": "assets/perfumes/af-54-antonio-banderas-king-of-seduction.webp"
   },
   {
     "id": "AF-055",
@@ -842,7 +842,7 @@
       "fresco",
       "dulce"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-55-al-haramain-amber-oud-aqua-dubai.webp"
+    "image": "assets/perfumes/af-55-al-haramain-amber-oud-aqua-dubai.webp"
   },
   {
     "id": "AF-056",
@@ -858,7 +858,7 @@
       "fresco",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-56-french-avenue-vulcan-feu.webp"
+    "image": "assets/perfumes/af-56-french-avenue-vulcan-feu.webp"
   },
   {
     "id": "AF-057",
@@ -874,7 +874,7 @@
       "floral",
       "suave"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-57-lattafa-badee-al-oud-noble-blush.webp"
+    "image": "assets/perfumes/af-57-lattafa-badee-al-oud-noble-blush.webp"
   },
   {
     "id": "AF-058",
@@ -890,7 +890,7 @@
       "intenso",
       "floral"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-58-french-avenue-vulcan-baie.webp"
+    "image": "assets/perfumes/af-58-french-avenue-vulcan-baie.webp"
   },
   {
     "id": "AF-059",
@@ -906,7 +906,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-59-lattafa-badee-al-oud-amethyst.webp"
+    "image": "assets/perfumes/af-59-lattafa-badee-al-oud-amethyst.webp"
   },
   {
     "id": "AF-060",
@@ -921,7 +921,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-60-lattafa-badee-al-oud-oud-for-glory.webp"
+    "image": "assets/perfumes/af-60-lattafa-badee-al-oud-oud-for-glory.webp"
   },
   {
     "id": "AF-061",
@@ -937,7 +937,7 @@
       "intenso",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-61-lattafa-badee-al-oud-honor-glory.webp"
+    "image": "assets/perfumes/af-61-lattafa-badee-al-oud-honor-glory.webp"
   },
   {
     "id": "AF-062",
@@ -953,7 +953,7 @@
       "floral",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-62-cher-dieciocho-elixir.webp"
+    "image": "assets/perfumes/af-62-cher-dieciocho-elixir.webp"
   },
   {
     "id": "AF-063",
@@ -969,7 +969,7 @@
       "dulce",
       "suave"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-63-cher-dieciocho-glossy.webp"
+    "image": "assets/perfumes/af-63-cher-dieciocho-glossy.webp"
   },
   {
     "id": "AF-064",
@@ -984,7 +984,7 @@
       "floral",
       "dulce"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-64-armani-my-way.webp"
+    "image": "assets/perfumes/af-64-armani-my-way.webp"
   },
   {
     "id": "AF-065",
@@ -1000,7 +1000,7 @@
       "floral",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-65-armani-si.webp"
+    "image": "assets/perfumes/af-65-armani-si.webp"
   },
   {
     "id": "AF-066",
@@ -1015,7 +1015,7 @@
       "dulce",
       "intenso"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-66-dolce-gabbana-devotion.webp"
+    "image": "assets/perfumes/af-66-dolce-gabbana-devotion.webp"
   },
   {
     "id": "AF-067",
@@ -1030,7 +1030,7 @@
       "fresco",
       "amaderado"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-67-armaf-club-de-nuit-milestone.webp"
+    "image": "assets/perfumes/af-67-armaf-club-de-nuit-milestone.webp"
   },
   {
     "id": "AF-068",
@@ -1045,7 +1045,7 @@
       "dulce",
       "suave"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-68-victorias-secret-sugar-plum-fig.webp"
+    "image": "assets/perfumes/af-68-victorias-secret-sugar-plum-fig.webp"
   },
   {
     "id": "AF-069",
@@ -1061,7 +1061,7 @@
       "dulce",
       "suave"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-69-victorias-secret-pear-glace.webp"
+    "image": "assets/perfumes/af-69-victorias-secret-pear-glace.webp"
   },
   {
     "id": "AF-070",
@@ -1077,7 +1077,7 @@
       "floral",
       "suave"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-70-victorias-secret-temptation.webp"
+    "image": "assets/perfumes/af-70-victorias-secret-temptation.webp"
   },
   {
     "id": "AF-071",
@@ -1092,7 +1092,7 @@
       "dulce",
       "suave"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-71-victorias-secret-bare-vanilla.webp"
+    "image": "assets/perfumes/af-71-victorias-secret-bare-vanilla.webp"
   },
   {
     "id": "AF-072",
@@ -1107,6 +1107,6 @@
       "dulce",
       "suave"
     ],
-    "image": "https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/perfumes/af-72-victorias-secret-coconut-passion.webp"
+    "image": "assets/perfumes/af-72-victorias-secret-coconut-passion.webp"
   }
 ]
