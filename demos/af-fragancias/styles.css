@@ -167,7 +167,7 @@ button {
   place-items: center;
   isolation: isolate;
   overflow: hidden;
-  background: url("https://cdn.jsdelivr.net/gh/lautaroantonini10-sketch/af-fragancias@main/dist/assets/brand/wood-hero.webp") center / cover no-repeat;
+  background: url("assets/brand/wood-hero.webp") center / cover no-repeat;
 }
 
 .hero::after {
