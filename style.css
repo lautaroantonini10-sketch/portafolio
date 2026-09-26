@@ -768,3 +768,56 @@ footer {
 }
 
 
+
+
+/* Portfolio: jerarquía, proyectos y accesibilidad */
+html { scroll-padding-top: 88px; }
+.hero { min-height: min(780px, 90svh); }
+.hero-content h1 { font-size: clamp(3rem, 6.2vw, 5.6rem); line-height: 1.03; }
+.proyectos { padding-top: 4rem; padding-bottom: 4rem; }
+.sobre-mi { padding-top: 4rem; }
+.card-proyecto { display: flex; flex-direction: column; min-width: 0; }
+.proyecto-imagen { height: 230px; flex-shrink: 0; overflow: hidden; }
+.proyecto-imagen img { display: block; height: 100%; }
+.proyecto-imagen-tienda { height: 230px; }
+.proyecto-info { display: flex; flex-direction: column; flex: 1; }
+.project-kind { color: #67e8f9; font-size: .65rem; font-weight: 700; letter-spacing: 1.2px; margin-bottom: .65rem; }
+.project-contribution strong { color: var(--text-primary); }
+.proyecto-info .tags { margin-top: auto; }
+.proyecto-info .demo-note { font-size: .8rem; line-height: 1.5; min-height: 2.4rem; }
+.proyecto-links { margin-top: .25rem; }
+.btn-link.demo { display: inline-flex; align-items: center; gap: 1.5rem; min-height: 44px; padding: .65rem 1.1rem; border: 1px solid #777af2; border-radius: 8px; color: #e0e7ff; background: rgba(99,102,241,.13); }
+.btn-link.demo:hover { background: #3730a3; color: white; }
+.af-preview { display: flex; align-items: center; gap: 16px; padding: 24px; background: linear-gradient(90deg,rgba(13,8,5,.9),rgba(13,8,5,.25)),url('demos/af-fragancias/assets/brand/wood-hero.webp') center/cover; border-bottom: 1px solid var(--border-color); }
+.af-preview-heading { flex: 1; color: #f5ebdc; }
+.af-preview-heading span { display: block; font-size: 9px; letter-spacing: 2px; color: #d4b98c; margin-bottom: 14px; }
+.af-preview-heading strong { font-family: Georgia, serif; font-weight: 400; font-size: clamp(25px,2.5vw,36px); line-height: 1.12; }
+.af-preview-products { display: flex; gap: 9px; width: 48%; height: 170px; }
+.af-preview-products img { width: calc(50% - 4.5px); height: 100%; object-fit: cover; border: 1px solid #9b7f57; border-radius: 4px; }
+.af-preview-products img:last-child { transform: translateY(10px); }
+a:focus-visible, button:focus-visible { outline: 3px solid #67e8f9; outline-offset: 5px; }
+.skip-link { position: fixed; top: 8px; left: 8px; z-index: 2000; transform: translateY(-160%); padding: 12px 18px; background: #f8fafc; color: #0b0f19; border-radius: 6px; }
+.skip-link:focus { transform: translateY(0); }
+@media (max-width: 768px) {
+    .navbar { flex-wrap: wrap; }
+    .navbar nav { width: 0; }
+    #btn-menu-portafolio { margin-left: auto; width: 44px; height: 44px; }
+    .nav-links { top: 76px; }
+    .hero { min-height: auto; padding: 140px 6% 64px; }
+    .hero-content h1 { font-size: clamp(2.5rem,9vw,3.5rem); letter-spacing: -1.5px; }
+    .hero-badge { font-size: 9px; letter-spacing: 1px; }
+    .hero-subtitle { font-size: 1rem; }
+    .proyectos,.sobre-mi { padding: 3.5rem 6%; }
+    .section-heading { margin-bottom: 2rem; }
+    .section-heading h2 { font-size: 1.4rem; }
+    .proyecto-imagen,.proyecto-imagen-tienda { height: 210px; }
+    .af-preview { padding: 18px; }
+    .af-preview-products { height: 150px; }
+    .proyecto-info .demo-note { min-height: 0; }
+    .btn-link.demo { width: 100%; justify-content: space-between; }
+}
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+    .card-proyecto:hover,.dato-card:hover,.paso-card:hover,.btn-primary:hover,.skills-list span:hover { transform: none; }
+}
