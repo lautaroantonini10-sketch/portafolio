@@ -10,25 +10,35 @@
     content="Portfolio de Lautaro Antonini, desarrollador Frontend enfocado en aplicaciones web modernas, responsive e integraciones con Firebase, APIs y servicios externos."
 >
 
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_AR">
+<meta property="og:title" content="Lautaro Antonini | Desarrollo web">
+<meta property="og:description" content="Catálogos y tiendas online: explorá mis proyectos de desarrollo web.">
+<meta property="og:url" content="https://lautaroantonini10-sketch.github.io/portafolio/">
+<meta property="og:image" content="https://lautaroantonini10-sketch.github.io/portafolio/assets/tienda-deportiva-preview.webp">
+<meta property="og:image:alt" content="Vista de Tienda Deportiva, uno de mis proyectos web">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
 
     <!-- NAVEGACIÓN -->
     <header class="navbar">
         <div class="logo">
             <a href="#inicio">LA.</a>
         </div>
-         <button id="btn-menu-portafolio" aria-label="Menú">☰</button>
-        <nav>
+         <button id="btn-menu-portafolio" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links-portafolio">☰</button>
+        <nav aria-label="Navegación principal">
             <ul class="nav-links" id="nav-links-portafolio">
-                <li><a href="#sobre-mi">Sobre mí</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main id="contenido">
         <!-- SECCIÓN HERO -->
 <section id="inicio" class="hero">
     <div class="hero-content">
@@ -42,11 +52,7 @@
     <span>soluciones web reales.</span>
 </h1>
 
-<p class="hero-subtitle">
-    Desarrollo aplicaciones modernas, funcionales y responsive,
-    integrando interfaces, datos y servicios para resolver
-    necesidades reales de negocio.
-</p>
+<p class="hero-subtitle">Creo catálogos, tiendas online y páginas para negocios, con diseño adaptable a celulares e integraciones que acompañan cada proyecto.</p>
 
         <div class="hero-buttons">
             <a href="#proyectos" class="btn btn-primary">
@@ -66,11 +72,94 @@
     </div>
 </section>
 
+        <!-- SECCIÓN PROYECTOS -->
+        <section id="proyectos" class="proyectos">
+    <div class="section-heading">
+        <span class="section-number">01</span>
+        <h2>Proyectos destacados</h2>
+    </div>
+    <div class="proyectos-grid">
+
+
+                <!-- Proyecto Principal: Tienda Deportiva -->
+<article class="card-proyecto">
+    <div class="proyecto-imagen proyecto-imagen-tienda">
+        <img
+            src="assets/tienda-deportiva-preview.webp" width="520" height="236" loading="lazy" decoding="async"
+            alt="Vista previa de Tienda Deportiva"
+        >
+    </div>
+
+    <div class="proyecto-info">
+        <span class="project-kind">PROYECTO DEMOSTRATIVO</span><h3>Tienda Deportiva · E-Commerce</h3>
+
+        <p>Una tienda para explorar productos y organizar una compra desde una sola interfaz.</p>
+        <p class="project-contribution"><strong>Mi trabajo:</strong> desarrollo del catálogo con búsqueda y filtros, carrito persistente e integración de usuarios, historial de compras y Mercado Pago mediante servicios de backend.</p>
+
+        <ul class="tags">
+            <li>JavaScript</li>
+            <li>Firebase Auth</li>
+            <li>Firestore</li>
+            <li>Mercado Pago</li>
+            <li>Servicios serverless</li>
+            <li>LocalStorage</li>
+        </ul>
+
+        <p class="demo-note" id="nota-tienda">Demo para explorar el catálogo y el carrito. No realices compras desde esta muestra.</p>
+        <div class="proyecto-links">
+
+            <a
+                href="https://tienda-deportiva-b14c3.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-link demo" aria-describedby="nota-tienda" aria-label="Ver demo de Tienda Deportiva (abre en otra pestaña)"
+            >
+                Ver demo <span aria-hidden="true">↗</span>
+            </a>
+        </div>
+    </div>
+</article>
+
+                <!-- Proyecto Secundario: AF Fragancias -->
+                <article class="card-proyecto">
+    <div class="proyecto-imagen af-preview" role="img" aria-label="AF Fragancias: catálogo de perfumes con identidad en madera y tonos dorados">
+        <div class="af-preview-heading"><span>AF · FRAGANCIAS</span><strong>Tu aroma.<br>Tu presencia.</strong></div>
+        <div class="af-preview-products" aria-hidden="true">
+            <img src="demos/af-fragancias/assets/perfumes/af-01-ch-la-bomba.webp" alt="" width="160" height="200" loading="lazy" decoding="async">
+            <img src="demos/af-fragancias/assets/perfumes/af-02-jpg-scandal-le-parfum.webp" alt="" width="160" height="200" loading="lazy" decoding="async">
+        </div>
+    </div>
+
+    <div class="proyecto-info">
+        <span class="project-kind">PROYECTO PARA UN NEGOCIO REAL</span><h3>AF Fragancias · Catálogo Interactivo</h3>
+
+        <p>Una perfumería necesitaba presentar su colección y ayudar a cada persona a encontrar una fragancia.</p>
+        <p class="project-contribution"><strong>Mi trabajo:</strong> diseño y desarrollo del catálogo adaptable a celulares, búsqueda, filtros, fichas de producto y selector de recomendaciones según las preferencias elegidas.</p>
+
+        <ul class="tags">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>Recomendador</li>
+            <li>Filtros dinámicos</li>
+        </ul>
+
+        <p class="demo-note">Versión de muestra sin contacto comercial.</p>
+        <div class="proyecto-links">
+            <a href="demos/af-fragancias/" target="_blank" rel="noopener noreferrer" class="btn-link demo" aria-label="Ver demo de AF Fragancias (abre en otra pestaña)">Ver demo <span aria-hidden="true">↗</span></a>
+        </div>
+    </div>
+</article>
+
+            </div>
+        </section>
+
         <!-- SECCIÓN SOBRE MÍ -->
         <section id="sobre-mi" class="sobre-mi">
 
     <div class="section-heading">
-        <span class="section-number">01</span>
+        <span class="section-number">02</span>
         <h2>Sobre mí</h2>
     </div>
 
@@ -80,13 +169,11 @@
             <span class="eyebrow">PERFIL</span>
 
             <h3>
-                Desarrollo interfaces,
-                pero pienso en soluciones.
+                Páginas pensadas para quienes las usan.
             </h3>
 
             <p>
-                Soy desarrollador web enfocado en Frontend, con experiencia
-                construyendo aplicaciones modernas, funcionales y responsive.
+                Soy Lautaro Antonini, desarrollador web enfocado en Frontend. Diseño y construyo interfaces para presentar productos y facilitar su exploración desde cualquier dispositivo.
             </p>
 
              <p>
@@ -95,11 +182,7 @@
                 persistencia de datos, APIs y flujos de pago.
             </p>
 
-             <p>
-                También estoy ampliando mi perfil con formación en Análisis de
-                Negocios, buscando combinar desarrollo tecnológico con una mejor
-                comprensión de los problemas reales que una solución digital debe resolver.
-             </p>
+             
         </div>
 
         <div class="perfil-datos">
@@ -137,8 +220,7 @@
         <span class="eyebrow">PROCESO</span>
         <h3>Cómo trabajo</h3>
         <p>
-            Un recorrido corto: primero el problema, después la interfaz,
-            después el código.
+            Desde la primera idea hasta la publicación, con revisión de los recorridos principales en cada etapa.
         </p>
     </div>
 
@@ -157,7 +239,7 @@
             <h4>Diseñar la interfaz</h4>
             <p>
                 Defino estructura, jerarquía visual y un recorrido simple
-                en desktop y en mobile.
+                en computadoras y celulares.
             </p>
         </article>
 
@@ -167,7 +249,7 @@
     <p>
         Desarrollo con HTML, CSS y JavaScript, integro servicios como
         Firebase, APIs o pagos, pruebo los flujos principales y ajusto
-        la experiencia en desktop y mobile antes de publicar.
+        la experiencia en computadoras y celulares antes de publicar.
     </p>
 </article>
     </div>
@@ -189,7 +271,7 @@
     <span>Firebase Auth</span>
     <span>Firestore</span>
     <span>Firebase Hosting</span>
-    <span>Netlify Functions</span>
+    <span>Servicios serverless</span>
     <span>REST APIs</span>
     <span>Mercado Pago</span>
     <span>Git</span>
@@ -199,94 +281,6 @@
 
 </section>
 
-        <!-- SECCIÓN PROYECTOS -->
-        <section id="proyectos" class="proyectos">
-    <div class="section-heading">
-        <span class="section-number">02</span>
-        <h2>Proyectos destacados</h2>
-    </div>
-    <div class="proyectos-grid">
-
-
-                <!-- Proyecto Principal: Tienda Deportiva -->
-<article class="card-proyecto">
-    <div class="proyecto-imagen proyecto-imagen-tienda">
-        <img
-            src="assets/tienda-deportiva-preview.webp"
-            alt="Vista previa de Tienda Deportiva"
-        >
-    </div>
-
-    <div class="proyecto-info">
-        <h3>Tienda Deportiva · E-Commerce</h3>
-
-        <p>
-            Aplicación web de comercio electrónico desarrollada con JavaScript,
-            Firebase y servicios serverless. Incluye catálogo con búsqueda y
-            filtros, carrito persistente, autenticación de usuarios, historial
-            de compras y pagos integrados con Mercado Pago, con validación
-            segura desde el backend mediante webhooks.
-        </p>
-
-        <ul class="tags">
-            <li>JavaScript</li>
-            <li>Firebase Auth</li>
-            <li>Firestore</li>
-            <li>Mercado Pago</li>
-            <li>Netlify Functions</li>
-            <li>LocalStorage</li>
-        </ul>
-
-        <div class="proyecto-links">
-
-            <a
-                href="https://tienda-deportiva-b14c3.web.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn-link demo"
-            >
-                Ver Demo
-            </a>
-        </div>
-    </div>
-</article>
-
-                <!-- Proyecto Secundario: AF Fragancias -->
-                <article class="card-proyecto">
-    <div class="proyecto-imagen">
-        <img
-            src="demos/af-fragancias/assets/brand/wood-hero.webp"
-            alt="Vista previa de AF Fragancias"
-        >
-    </div>
-
-    <div class="proyecto-info">
-        <h3>AF Fragancias · Catálogo Interactivo</h3>
-
-        <p>
-            Catálogo web responsive desarrollado para una perfumería real. Incluye
-            búsqueda, filtros por categoría y público, fichas de producto y un
-            selector “¿Cuál va conmigo?” que recomienda fragancias según el perfil
-            elegido por la persona.
-        </p>
-
-        <ul class="tags">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>Responsive Design</li>
-            <li>Recomendador</li>
-            <li>Filtros dinámicos</li>
-        </ul>
-
-        <div class="proyecto-links">
-            <a href="demos/af-fragancias/" target="_blank" rel="noopener noreferrer" class="btn-link demo">Ver Demo</a>
-        </div>
-    </div>
-</article>
-
-            </div>
-        </section>
     </main>
 
     <footer>
@@ -296,3 +290,4 @@
 <script src="script.js"></script>
 </body>
 </html>
+
