@@ -315,9 +315,9 @@ body {
     margin-bottom: 1.5rem;
 
     font-size: clamp(2rem, 4vw, 3.5rem);
-    line-height: 1;
+    line-height: 1.2;
 
-    letter-spacing: -1.5px;
+    letter-spacing: -0.02em;
 }
 
 .texto-perfil p {
